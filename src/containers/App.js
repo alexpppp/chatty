@@ -6,7 +6,7 @@ import store from "../store";
 import _ from 'lodash';
 
 const App = () => {
-  const { contacts } = store.getState();
+  const { contacts } = store.getState().contacts;
   
   return (
     <div className="App">
